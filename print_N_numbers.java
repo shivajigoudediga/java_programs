@@ -3,6 +3,7 @@ import java.util.*;
 public class print_N_numbers{
 	public static void main(String[]args){
 		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the N values ");
 		int n=sc.nextInt();
 		for(int i=1;i<=n;i++){
 			if(i<=1){
