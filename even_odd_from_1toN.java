@@ -4,7 +4,7 @@ import java.util.*;
 public class even_odd_from_1toN{
 	public static void main(String[]args){
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the N numbers to find sum");
+		System.out.println("Enter the N numbers to find even or odd");
 		int n=sc.nextInt();
 		for(int i=0;i<n;i++){
 			if(i%2==0){
